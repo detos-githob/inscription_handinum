@@ -212,6 +212,23 @@ h2{
 /* fin style du footer */
 
 @media screen and (max-width: 426px) {
-    
-    
+
+.container{
+    padding: 0px 30px;
+}
+
+.navbar .menu{
+    display: none;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.berger{
+    width: 66px;
+    height: 66px;
+}
+
+   
 }
