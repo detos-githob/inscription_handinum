@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "poppins" sans-serif;
+    padding: 0px 0px;
+    margin: 0px;
+    
+}
+
+/* debut style navbar */
+
+.container{
+    padding: 0px 50px;
+    font-family: "poppins";
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 600;
+    height: 99px;
+    width: 1440px;
+    color: black;
+    z-index: 9999;
+    position: fixed;
+    
+}
+.navbar .menu .link{
+    text-decoration: none;
+    color: black;
+    font-family: "poppins";
+}
+
+.navbar .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    gap: 40px;
+    list-style: none;
+}
+.navbar .menu .link:hover{
+    color: chocolate;
+
+
+}
+
+/* fin style navbar */
+
+/* debut style de la section une  */
+.section1{
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAF2FF;
+    
+}
+
+.section1 h1{
+    font-size: 80px;
+    color: #FA8800;
+    font-weight: 700;
+    font-family: "poppins";
+    line-height: 109.7%;
+    padding-bottom: 50px;
+
+}
+
+.section1 .p1{
+    font-size: 50px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: black;
+    line-height: 109.7%;
+    padding-bottom: 50px;
+}
+
+.section1 .nav-bouton .bouton1{
+    background-color: #FA8800;
+    border-radius: 40px;
+    width: 284px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.section1 .nav-bouton{
+    display: flex;
+    gap: 20px;
+}
+
+.section1 .nav-bouton .bouton2{
+    background-color: white;
+    border-radius: 40px;
+    border-color: #FA8800;
+    width: 284px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 30px;
+    font-weight: 600;
+    color: #FA8800;
+   
+}
+/* fin style de la section une  */
+
+/* debut style de la section 2 */
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FA8800;
+}
+
+.section2 .edwige img{
+    height: 550px;
+    width: 408px;
+}
+
+.section2 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.section2 .arxel img{
+    height: 517px;
+    width: 345px;
+}
+
+.section2 .auriane img{
+    height: 285;
+    width: 435;
+}
+
+ 
+/* fin style de la section 2 */
+
+/* debut style du footer */
+
+.foot{
+    background-color: #020058;
+    height: 362;
+    width: 1440;
+    color: white;
+    font-size: 18px
+}
+
+.pieds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+
+.foot .pieds h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.foot .pieds .Reseaux{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 10px;
+}
+.foot .pieds ul li{
+    text-decoration: none;
+
+}
+
+.foot .mention{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-top: #EAF2FF;
+    border-color: blanchedalmond;
+    
+}
+
+.foot .mention .liste{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+/* fin style du footer */
+
+@media screen and (max-width: 426px) {
+    
+    
+}
