@@ -49,6 +49,10 @@
 
 }
 
+.navbar .berger{
+    display: none;
+}
+
 /* fin style navbar */
 
 /* debut style de la section une  */
@@ -114,6 +118,11 @@
     font-weight: 600;
     color: #FA8800;
    
+}
+
+.section1 .home{
+    height: 748px;
+    width: 722.11px;
 }
 /* fin style de la section une  */
 
@@ -214,21 +223,140 @@ h2{
 @media screen and (max-width: 426px) {
 
 .container{
-    padding: 0px 30px;
+     padding: 0px 20px;
 }
 
-.navbar .menu{
-    display: none;
-
+.navbar .berger{
+    height: 66px;
+    width: 66px;
 }
+
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+    
+.navbar img{
+    height: 110pw;
+    width: 162px;
 }
 .berger{
     width: 66px;
     height: 66px;
 }
 
-   
+/* debut media query .section1 */
+.section1{
+    flex-direction: column;
+    padding-top: 140px;
+    padding-right: 20px;
+    justify-content: center;
 }
+
+.section1 h1{
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.section1 .p1{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section1 .home{
+    height: 353px;
+    width: 313px;
+    right: 50px; 
+    /* position: absolute;
+    top: 140px; */
+}
+
+/* .section1 .text{
+    position: relative;
+    bottom: 50px;
+} */
+
+.section1 .nav-bouton{
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 .nav-bouton .bouton1{
+    height: 38px;
+    width: 137px;
+    font-size: 15px;
+    left: 200px;
+   
+
+}
+
+.section1 .nav-bouton .bouton2{
+    height: 38px;
+    width: 137px;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600px;
+    color: #020058;
+}
+
+.section2{
+    flex-direction: column;
+    align-items: center;
+    /* height: 1739px; */
+}
+
+.section2 p{
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.section2 .p2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.section2 .edwige{
+    height: 408px;
+    width: 268.39;
+    /* padding-bottom: 100px; */
+
+}
+
+.section2 .arxel{
+    height: 367;
+    width: 281;
+}
+
+.section2 .auriane{
+    height: 183.73;
+    width: 280.63;
+}
+
+
+/* fin media query .section1 */
+
+/* debut media query footer */
+
+.foot .pieds{
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+}
+
+.foot .mention{
+    font-size: 10px;
+}
+
+
+/* debut media query footer */
+
+}
+
