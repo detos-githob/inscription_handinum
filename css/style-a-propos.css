@@ -198,6 +198,13 @@
     align-items: center;
 }
 
+.section5 .equipe a:hover{
+    background-color: #020058;
+    box-shadow: 4px 2px 5px #FA8800;
+
+
+}
+
 .section5 .equipe img{
     width: 598px;
     height: 417px;
@@ -220,6 +227,9 @@
     color: black;
     list-style: none;
 }
+
+/* .section6 .faq ol li a:hover{ */
+    
 
 
 /* debut du style faq */

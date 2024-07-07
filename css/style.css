@@ -85,7 +85,7 @@
 
 .section1 .nav-bouton .bouton1{
     background-color: #FA8800;
-    border-radius: 40px;
+    border-radius: 30px;
     width: 284px;
     height: 90px;
     display: flex;
@@ -98,6 +98,10 @@
     color: white;
 }
 
+.section1 .nav-bouton .bouton1:hover{
+    background-color: #020058;
+    box-shadow: 2px 0px 10px;
+}
 .section1 .nav-bouton{
     display: flex;
     gap: 20px;
@@ -120,6 +124,10 @@
    
 }
 
+.section1 .nav-bouton .bouton2:hover{
+    background-color: #020058;
+    box-shadow: 0px 2px 10px;
+}
 .section1 .home{
     height: 748px;
     width: 722.11px;
@@ -292,6 +300,11 @@ h2{
     left: 200px;
    
 
+}
+
+.section1 .nav-bouton .bouton1:hover{
+    background-color: #020058;
+    box-shadow: 4px 2px 5px #FA8800;
 }
 
 .section1 .nav-bouton .bouton2{
