@@ -37,128 +37,200 @@
             <p>les champs contenant l'axtériste sont obligatoires</p>
             <div>
                 <form action="">
-                    <label for="Prenom">Prenom</label>
-                    <input type="text" id="prenom" name="prenom" autocomplete="on" placeholder="entrez votre Prenom">
-                    <label for="Nom">Nom</label>
-                    <input type="text" id="nom" name="nom de famille" autocomplete="on" placeholder="entrez votre Nom"> <br>
-                    <label for="date de naissance">Date de naisance</label>
-                    <input type="date" id="naissance" name="naissance">
-                    <label for="lieu">lieu de naissance</label>
-                    <input type="text" id="lieu" name="lieu de naisance" placeholder="entrez votrelieu de naisance"> <br>
-                    <label for="mail">votre e-mail</label>
-                    <input type="email" id="email" name="e-mail" autocomplete="on" required="required"> <br>
-                    <label for="tel">Téléphone</label>
-                    <input type="tel" id="tel" name="tel" required="required"> <br>
-                    Sexe <br>
-                    <input type="radio" id="homme" name="sexe" value="homme">
-                    <label for="homme">Hommme</label> <br>
-                    <input type="radio" id="femme" name="sxe" value="femme">
-                    <label for="femme">Femme</label><br><br>
-                    Commune de résidence 
-                    <select name="commune" id="commune">
-                        <option value="cotonou">Cotonou</option>
-                        <option value="ouidah">Ouidah</option>
-                        <option value="kpomasse">Kpomasse</option>
-                        <option value="Abomey-calavi">Abomey-calavi</option>
-                        <option value="Allada">Allada</option>
-                        <option value="Tori-bossito">Tori-bossito</option>
-                        <option value="Toffo">Toffo</option>
-                        <option value="Zè">Zè</option>
-                        <option value="So-ava">So-ava</option>
-                        <option value="Come">Come</option>
-                        <option value="Grand-popo">Grand-popo</option>
-                        <option value="Bopa">Bopa</option>
-                        <option value="Houeyogbé">Houeyogbé</option>
-                        <option value="Athiemey">Athiemey</option>
-                        <option value="Lokossa">Lokossa</option>
-                        <option value="Dogbo">Dogbo</option>
-                        <option value="Aplahoue">Aplahoué</option>
-                        <option value="Lalo">Lalo</option>
-                        <option value="Djakotomey">Djakotomey</option>
-                        <option value="Klouekanmey">Klouekanmey</option>
-                        <option value="Toviklin">Toviklin</option>
-                        <option value="Abomey">Abomey</option>
-                        <option value="Bohicon">Bohicon</option>
-                        <option value="Agbangnizoun">Agbangnizoun</option>
-                        <option value="Djidja">Djidja</option>
-                        <option value="Cove">Cove</option>
-                        <option value="Ouinhi">Ouinhi</option>
-                        <option value="Zagnannado">Zagnannado</option>
-                        <option value="Zakpota">Zakpota</option>
-                        <option value="Porto-Novo">Porto-Novo</option>
-                        <option value="Seme-kpodji">Seme-kpodji</option>
-                        <option value="Bonou">Bonou</option>
-                        <option value="Akpro-Missrete">Akpro-Missrete</option>
-                        <option value="Dangbo">Dangbo</option>
-                        <option value="Adjarra">Adjarra</option>
-                        <option value="Pobè">Pobè</option>
-                        <option value="Ketou">Ketou</option>
-                        <option value="Ifangnin">ifangni</option>
-                        <option value="Sakete">Sakete</option>
-                        <option value="Savalou">Savalou</option>
-                        <option value="Dassa">Dassa</option>
-                        <option value="Save">Save</option>
-                        <option value="Ouesse">Ouesse</option>
-                        <option value="Glazoué">Glazoué</option>
-                        <option value="Bante">Bante</option>
-                        <option value="Tchaourou">Tchaourou</option>
-                        <option value="Parakou">Parakou</option>
-                        <option value="N'dali">N'dali</option>
-                        <option value="Bembereke">Bembèrèkè</option>
-                        <option value="kandi">kandi</option>
-                        <option value="Gogounou">Gogounou</option>
-                        <option value="Malanville">Malanville</option>
-                        <option value="Karimama">Karimama</option>
-                        <option value="Boukoumbé">Boukoumbé</option>
-                        <option value="Djougou">Djougou</option>
-                        <option value="Kalale">Kalale</option>
-                        <option value="Nikki">Nikki</option>
-                        <option value="Sinade">Snande</option>
-                        <option value="Kouande">Kouande</option>
-                        <option value="Kerou">Kerou</option>
-                        <option value="Natitingou">Natitingou</option>
+                    <fieldset id="section2">
+                        <legend>Renseignez vos informations personnelles</legend>
+                        <label for="Prenom">Prenom</label> 
+                        <input type="text" id="prenom" name="prenom" autocomplete="on" placeholder="entrez votre Prenom"><br>
+                        <label for="Nom">Nom</label>
+                        <input type="text" id="nom" name="nom de famille" autocomplete="on" placeholder="entrez votre Nom"> <br>
+                        <label for="date de naissance">Date de naisance</label> 
+                        <input type="date" id="naissance" name="naissance"><br>
+                        <label for="lieu">lieu de naissance</label>
+                        <input type="text" id="lieu" name="lieu de naisance" placeholder="entrez votrelieu de naisance"> <br>
+                        <label for="mail">votre e-mail</label>
+                        <input type="email" id="email" name="e-mail" autocomplete="on" required="required"> <br>
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" name="tel" required="required"> <br>
+                        <div class="sexe"> 
+                            <p>Sexe</p>
+                            <input type="radio" id="homme" name="sexe" value="homme">
+                            <label for="homme">Hommme</label> <br>
+                            <input type="radio" id="femme" name="sxe" value="femme">
+                            <label for="femme">Femme</label><br><br>
+                        </div>
+                        <div class="com">
+                        <p>Commune de résidence</p> 
+                        <select name="commune" id="commune">
+                            <option value="cotonou">Cotonou</option>
+                            <option value="ouidah">Ouidah</option>
+                            <option value="kpomasse">Kpomasse</option>
+                            <option value="Abomey-calavi">Abomey-calavi</option>
+                            <option value="Allada">Allada</option>
+                            <option value="Tori-bossito">Tori-bossito</option>
+                            <option value="Toffo">Toffo</option>
+                            <option value="Zè">Zè</option>
+                            <option value="So-ava">So-ava</option>
+                            <option value="Come">Come</option>
+                            <option value="Grand-popo">Grand-popo</option>
+                            <option value="Bopa">Bopa</option>
+                            <option value="Houeyogbé">Houeyogbé</option>
+                            <option value="Athiemey">Athiemey</option>
+                            <option value="Lokossa">Lokossa</option>
+                            <option value="Dogbo">Dogbo</option>
+                            <option value="Aplahoue">Aplahoué</option>
+                            <option value="Lalo">Lalo</option>
+                            <option value="Djakotomey">Djakotomey</option>
+                            <option value="Klouekanmey">Klouekanmey</option>
+                            <option value="Toviklin">Toviklin</option>
+                            <option value="Abomey">Abomey</option>
+                            <option value="Bohicon">Bohicon</option>
+                            <option value="Agbangnizoun">Agbangnizoun</option>
+                            <option value="Djidja">Djidja</option>
+                            <option value="Cove">Cove</option>
+                            <option value="Ouinhi">Ouinhi</option>
+                            <option value="Zagnannado">Zagnannado</option>
+                            <option value="Zakpota">Zakpota</option>
+                            <option value="Porto-Novo">Porto-Novo</option>
+                            <option value="Seme-kpodji">Seme-kpodji</option>
+                            <option value="Bonou">Bonou</option>
+                            <option value="Akpro-Missrete">Akpro-Missrete</option>
+                            <option value="Dangbo">Dangbo</option>
+                            <option value="Adjarra">Adjarra</option>
+                            <option value="Pobè">Pobè</option>
+                            <option value="Ketou">Ketou</option>
+                            <option value="Ifangnin">ifangni</option>
+                            <option value="Sakete">Sakete</option>
+                            <option value="Savalou">Savalou</option>
+                            <option value="Dassa">Dassa</option>
+                            <option value="Save">Save</option>
+                            <option value="Ouesse">Ouesse</option>
+                            <option value="Glazoué">Glazoué</option>
+                            <option value="Bante">Bante</option>
+                            <option value="Tchaourou">Tchaourou</option>
+                            <option value="Parakou">Parakou</option>
+                            <option value="N'dali">N'dali</option>
+                            <option value="Bembereke">Bembèrèkè</option>
+                            <option value="kandi">kandi</option>
+                            <option value="Gogounou">Gogounou</option>
+                            <option value="Malanville">Malanville</option>
+                            <option value="Karimama">Karimama</option>
+                            <option value="Boukoumbé">Boukoumbé</option>
+                            <option value="Djougou">Djougou</option>
+                            <option value="Kalale">Kalale</option>
+                            <option value="Nikki">Nikki</option>
+                            <option value="Sinade">Snande</option>
+                            <option value="Kouande">Kouande</option>
+                            <option value="Kerou">Kerou</option>
+                            <option value="Natitingou">Natitingou</option>
 
-                    </select>
+                        </select>
+                        </div>
+                </fieldset>
                 </form>                
             </div>
         </div>
         <div>
             <h2>Type de handicap</h2>
             <form action="">
-                <input type="checkbox" id="handicapé moteur" name="moteur">
-                <label for="moteur">Handicapé moteur</label> <br>
-                <input type="checkbox" id="visuel" name="visuel">
-                <label for="visuel">Handicapé visuel</label> <br>
-                <input type="checkbox" id="auditif" name="auditif">
-                <label for="auditif">Handicapé auditif</label> <br>
-                <input type="checkbox" name="autre" id="autre">
-                <label for="autre">Autre</label>
-                <label for="Préciser">Préciser</label>
-                <textarea name="précision" id="précision"></textarea>
+                <fieldset id="section3">
+                    <legend>Choisissez votre type de handicap</legend>
+                    <input type="checkbox" id="handicapé moteur" name="moteur">
+                    <label for="moteur">Handicapé moteur</label> <br>
+                    <input type="checkbox" id="visuel" name="visuel">
+                    <label for="visuel">Handicapé visuel</label> <br>
+                    <input type="checkbox" id="auditif" name="auditif">
+                    <label for="auditif">Handicapé auditif</label> <br>
+                    <input type="checkbox" name="autre" id="autre">
+                    <label for="autre">Autre</label>
+                    <label for="Préciser">Préciser</label>
+                    <textarea name="précision" id="précision"></textarea>
+                </fieldset>
             </form>
         </div>
         <div>
             <h2>Motivations pour rejoindre le projet</h2>
             <form action="">
-                <textarea name="motivations" id="motivations" placeholder="entrer vrotre texte "></textarea>
+                <fieldset id="sect4">
+                    <legend>Votre motivation en quinze ligne au plus</legend>
+                    <textarea name="motivations" id="motivations" placeholder="entrer vrotre texte "></textarea>
+                </fieldset>
             </form>
-            <p>Au plus 15 mignes</p>
+            <p>Au plus 15 lignes</p>
         </div>
-        <div>
+        <div class="doc">
             <h2>Documents à joindre</h2>
-            Acte de naissance
-            <a href="">choisir un fichier</a> <br>
-            Photo d'identité
-            <a href="">Choisir un fichier</a>
+            <div class="div1">
+                <p>Acte de naissance</p>
+                <a href="">choisir un fichier</a> <br>
+            </div>
+            <div class="div2">
+                <p>Photo d'identité</p>
+                <a href="">Choisir un fichier</a>
+            </div>
         </div>
-        <div>
+        <div class="bouton">
             <form action="">
-                <label for="soumettre">Soumettre</label>
+                <label for="soumettre"></label>
                 <input type="submit" id="soumettre" >
             </form>
         </div>
 
     </section>
+    <footer>
+        <div class="foot container">
+            <div class="pieds">
+                    <div>
+                    <h5>Devenir partenaire</h5>
+                    <ul>
+                        <li>Nous rejoindre</li>
+                        <li>Devenir partenaire</li>
+                        <li>Devenir coach carrière</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Liens utils</h5>
+                    <ul>
+                        <li><a class="liste" href="https:// wwww.openclassroom.com">open classroom</a></li>
+                        <li><a class="liste" href="https:// www.youtube.com">youtube</a></li>
+                        <li><a class="liste" href="hpps://fr.khanacademy.org">khan academy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Partenaires</h5>
+                    <ul>
+                        <li>Simplon Bénin</li>
+                        <li>Société Inclusive</li>
+                        <li>Société Générale du Benin</li>
+                        <li>Société Fabrimetal</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Nous contacter</h5>
+                    <ul>
+                        <li> <a href="+229 56565858">Tel: +229056565858</a></li>
+                        <li><a href="email">conact@mail.com</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5> Reseaux sociaux</h5>
+                    <div class="Reseaux">
+                        <div><a href="https://facebook.com"><img src="assets/facebook (2).png" height="40px" alt="facebook"></a></div>
+                        <div><a href="https:/x.com"><img src="assets/tweter.png" height="40px" alt="tweter"></a></div>
+                        <div><a href="https://linkedin.com"><img src="assets/linldinblanc.png" height="40px" alt="linkedin"></a></div>
+                        <div><a href="https://instagram.com"><img src="assets/instagram-logo-white.png BLANC.png" height="40px" alt="instagram"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="mention">
+                    <li><a class="liste" href="mention légale">Mention légale</a></li>
+                    <li><a class="liste" href="politique de confidentialité">Politique de confidentialité et de protection des données</a></li>
+                    <li><a class="liste" href="conditions d'utilisation">Conditions d'utilisation</a></li>
+                    <li><a class="liste" href="asseccibilité">Accessibilié</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

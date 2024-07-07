@@ -56,8 +56,259 @@
 /* fin style navbar */
 /* debut style des informations parsonnelles */
 .section1{
-    padding-top: 140px;
+    padding-top: 100px;
+    background-color: #EAF2FF;
+    font-size: 25px;
+}
+ .section1 h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FA8800;
+ }
+
+.box1{
+    height: 16px;
+    width: 1440px;
+    background-color: #0200AE;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.box2{
+    height: 73px;
+    width: 676px;
+    background-color: #0200AE;
+    color: white;
+    font-size: 43px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left: 350px;
+}
+
+/* debut style des informations parsonnelles */
+#section2{
+    padding: 20px;
+    margin: 20px;
+    
 }
 
 
-/* debut style des informations parsonnelles */
+
+legend{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+#section2 input{
+    width: 538px;
+    height: 64px;
+    border-radius: 20px;
+    background-color: rgba(f, f, f, 0.6);
+}
+#section2 label{
+    display: inline-block;
+    width: 300px;
+    padding: 20px 0px 30px 40px;
+}
+
+#section2 input[type=radio]{
+    width: 30px;
+    height: 30px;
+    
+}
+#section2 .sexe{
+    padding-left: 45px;
+}
+
+#section2 select{
+    min-height: 64px;
+    width: 538px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+#section2 .com p{
+    display: inline-block;
+    width: 300px;
+    padding: 20px 0px 30px 40px;
+}
+
+#section2 input[placeholder]{
+    font-size: 20px;
+    text-align: center;
+}
+#section2 input[type=date]{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* debut style section3 */
+
+#section3{
+    padding: 20px;
+    margin: 30px;
+}
+ #section3 input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+
+ }
+
+ #section3 label{
+    display: inline-block;
+    width: 300px;
+    padding: 0px 0px 10px 30px;
+ }
+
+ #section3 textarea{
+    width: 300px;
+    height: 64px;
+    border-radius: 20px;
+ }
+
+/* fin style section3 */
+
+/* debut sytyle section4 */
+
+#section4{
+    padding: 20px;
+    margin: 30px;
+
+}
+
+#sect4 textarea{
+    width: 1109px;
+    height: 118px;
+    border-radius: 20px;
+    position: relative;
+    left: 150px;
+    
+}
+
+#sect4 textarea[placeholder]{
+    font-size: 20px;
+    text-align: justify;
+}
+#sect4 legend{
+    padding-bottom: 30px;
+}
+
+
+/* debut sytyle section4 */
+ 
+/* debut style dodument à joindre */
+
+.section1 .doc a{
+    height: 60px;
+    width: 219px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200px;
+    background-color: #EFECEC;
+    color: black;
+    border-color: black;
+
+}
+
+.section1 .doc .div1{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.section1 .doc .div2{
+    display: flex;
+    gap: 60px;
+}
+
+.section1 input[type=submit]{
+    width: 312px;
+    height: 82px;
+    background-color: #FA8800;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+}
+
+#section1 .bouton input[type=submit]:hover{
+    background-color: #0200AE;
+    box-shadow: 4px 0px 5px #FA8800;
+}
+
+#sestion1{
+    padding-bottom: 50px;
+}
+
+/* debut style dodument à joindre */
+
+
+/* debut style du footer */
+
+.foot{
+    margin-top: 150px;
+    background-color: #020058;
+    height: 362;
+    width: 1440;
+    color: white;
+    font-size: 18px
+    
+}
+
+.pieds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+
+.foot .pieds h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.foot .pieds .Reseaux{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 10px;
+}
+.foot .pieds ul li{
+    text-decoration: none;
+
+}
+
+.foot .mention{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-top: #EAF2FF;
+    border-color: blanchedalmond;
+    
+}
+
+.foot .mention .liste{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+/* fin style du footer */
