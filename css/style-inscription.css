@@ -314,3 +314,210 @@ legend{
 }
 
 /* fin style du footer */
+
+/* debut style media query */
+
+@media screen and (max-width: 426px) {
+    
+    .container{
+        padding: 0px 20px;
+      
+    }
+
+/* debut de style media query .navbar */
+  
+.navbar .berger{
+    height: 66px;
+    width: 66px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .menu{
+    display: none;
+}
+
+    
+.navbar img{
+    height: 110pw;
+    width: 162px;
+}
+.navbar .berger{
+    width: 66px;
+    height: 66px;
+    position: relative;
+    right: 0px;
+}
+
+/* fin de style media query .navbar */
+
+/* debut de style media query section2 */
+
+.section1{
+    padding: opx 20px;
+    padding-top: 105px;
+}
+
+.section1 h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.section1 .box1{
+    width: 100%;
+}
+
+.section1 .box2{
+    height: 25px;
+    width: 270px;
+    font-size: 18px;
+    left: 60px;
+}
+
+#section2{
+    padding: 20px;
+    margin: 0px;
+}
+
+legend{
+    font-size: 18px;
+}
+
+#section2 input{
+    width: 350px;
+    height: 40px;
+}
+
+#section2 label{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#section2 select{
+    height: 40px;
+    width: 350px;
+}
+
+#section2 .com p{
+    flex-direction: column;
+    align-items: center;
+    padding: 10x;
+}
+
+
+
+/* fin de style media query section2 */
+
+/* debut style meda query section3 */
+
+#section3{
+    padding: 20px;
+    margin: 0px;
+}
+
+#section3 label{
+    width: 300px;
+    padding: 0px 0px 0px 0px;
+}
+
+#section3 textarea{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+ }
+
+
+/* fin style meda query section3 */
+
+/* debut style media query section 4 */
+
+#section4{
+    padding: 20px;
+    margin: 0px;
+
+}
+
+#sect4 textarea{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    
+}
+
+
+
+/* fin style media query section 4 */
+
+/* debut style media query section5 */
+
+.section1 .doc a{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.section1 .doc .div1{
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 0px;
+}
+
+.section1 .doc .div2{
+   flex-direction: column;
+    gap: 10px;
+}
+
+.section1 input[type=submit]{
+    width: 207px;
+    height: 40px;
+    background-color: #FA8800;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+}
+
+.section1 .bouton input[type=submit]:hover{
+    background-color: #0200AE;
+    box-shadow: 4px 0px 5px #FA8800;
+}
+
+
+
+/* fin style media query section5 */
+
+/* debut media query footer */
+
+.foot .pieds{
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+}
+
+.foot .mention{
+    font-size: 10px;
+}
+
+
+/* debut media query footer */
+
+
+}
+
+
+
+
+/* fin style media query */

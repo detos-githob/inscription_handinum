@@ -239,6 +239,12 @@ h2{
     width: 66px;
 }
 
+
+.navbar .menu{
+    display: none;
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -249,7 +255,7 @@ h2{
     height: 110pw;
     width: 162px;
 }
-.berger{
+.navbar .berger{
     width: 66px;
     height: 66px;
 }
@@ -311,6 +317,11 @@ h2{
     height: 38px;
     width: 137px;
     font-size: 15px;
+}
+
+.section1 .nav-bouton .bouton2:hover{
+    background-color: #020058;
+    box-shadow: 4px 2px 5px #FA8800;
 }
 
 h2{
