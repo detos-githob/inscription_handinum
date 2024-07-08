@@ -256,6 +256,8 @@ h2{
     width: 162px;
 }
 .navbar .berger{
+    display: flex;
+    justify-content: flex-end;
     width: 66px;
     height: 66px;
 }
@@ -353,19 +355,19 @@ h2{
 }
 .section2 .edwige img{
     height: 498px;
-    width: 248.39;
+    width: 100%;
     /* padding-bottom: 100px; */
 
 }
 
 .section2 .arxel img{
     height: 367;
-    width: 281;
+    width: 100%;
 }
 
 .section2 .auriane img{
     height: 183.73;
-    width: 280.63;
+    width: 100%;
 }
 
 
